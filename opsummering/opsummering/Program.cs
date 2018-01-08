@@ -13,8 +13,6 @@ namespace opsummering
             character character;
 
 
-
-
         }
     }
 }
