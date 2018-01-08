@@ -15,7 +15,10 @@ namespace opsummering
 
             character = new Character("charater");
 
-            Console.WriteLine(Character.Person);
+            Console.WriteLine(character.Person());
+
+
+            Console.ReadLine();
         }
     }
 }
