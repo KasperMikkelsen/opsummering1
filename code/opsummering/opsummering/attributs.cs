@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace opsummering
 {
-    class attribute : Character
+    class Attribute : Character
     {
         private string name;
 
-        public attribute(string name) : base(name)
+        public Attribute(string name) : base(name)
 
         {
             this.name = name;
         }
 
-        public new string Describe()
+        public string Describe()
         {
             return "This is the attributes of " + name;
         }
