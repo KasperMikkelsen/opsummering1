@@ -13,6 +13,9 @@ namespace opsummering
             Character character;
 
 
+            character = new Character("charater");
+
+            Console.WriteLine(Character.Person);
         }
     }
 }

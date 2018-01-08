@@ -8,11 +8,17 @@ namespace opsummering
 {
     class Character
     {
+        private string CharacterName;
 
+
+        public Character(string CharacterName)
+        {
+            this.CharacterName = CharacterName;
+        }
 
         public string Person()
         {
-            return "Here you have your character" + "\n" +
+            return "Hello" + CharacterName + "\n" +
                 "this character has some stats" + "\n" +
                 "type 1 to see them";
         }
