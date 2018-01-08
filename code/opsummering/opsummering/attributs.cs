@@ -10,7 +10,7 @@ namespace opsummering
     {
         private string name;
 
-        public attribute(string name) : base(Character)
+        public attribute(string name) : base(name)
 
         {
             this.name = name;
