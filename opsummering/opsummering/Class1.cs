@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace opsummering
 {
-    class Class1
+    class character
     {
     }
 }
