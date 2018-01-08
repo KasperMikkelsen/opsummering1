@@ -10,6 +10,11 @@ namespace opsummering
     {
         static void Main(string[] args)
         {
+            character character;
+
+
+
+
         }
     }
 }
