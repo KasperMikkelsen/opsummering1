@@ -8,11 +8,12 @@ namespace lambda2
 {
     class Program
     {
-        delegate float NumberDelegate(float x , float y, float z);
+        delegate float NumberDelegate(float x, float y, float z);
         static void Main(string[] args)
         {
-            NumberDelegate addOn = (x, y, z) => x + y + z;
-            Console.WriteLine(addOn(2, 3, 4));
+            
+            NumberDelegate addOn = (x, y , z) => x + y + z;
+            Console.WriteLine(addOn(2.3f , 3.5f, 4.8f));
             Console.ReadLine();
         }
     }
