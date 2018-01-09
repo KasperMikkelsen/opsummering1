@@ -8,8 +8,16 @@ namespace something
 {
     class Program
     {
+        delegate string SayHello(string s);
         static void Main(string[] args)
         {
+            SayHello del = Hello;
+            Console.WriteLine("Hello");
+           
+        }
+        static string Hello (string s)
+        {
+            return s;
         }
     }
 }
