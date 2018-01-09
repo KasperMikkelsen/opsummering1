@@ -11,8 +11,8 @@ namespace lambda2
         delegate float NumberDelegate(float x , float y, float z);
         static void Main(string[] args)
         {
-            NumberDelegate multiply = (x, y, z) => x + y + z;
-            Console.WriteLine(multiply(2, 3, 4));
+            NumberDelegate addOn = (x, y, z) => x + y + z;
+            Console.WriteLine(addOn(2, 3, 4));
             Console.ReadLine();
         }
     }
