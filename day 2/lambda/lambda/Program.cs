@@ -8,8 +8,13 @@ namespace lambda
 {
     class Program
     {
+        delegate int NumberDelegat(int input); 
         static void Main(string[] args)
         {
+            NumberDelegat timesTwo = x => x * 2;
+            Console.WriteLine(timesTwo(7));
+            Console.ReadLine();
+            
         }
     }
 }
