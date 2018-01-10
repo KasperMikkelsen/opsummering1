@@ -8,6 +8,7 @@ namespace lambda
 {
 	class Program
 	{
+        // lambda expressions
 		delegate void NumberDelegat();
 
 		static void Message()
@@ -25,7 +26,8 @@ namespace lambda
 			NumberDelegat del1 = () => Console.WriteLine("World");
 			del1();
 
-			NumberDelegat del2 = delegate () { Console.WriteLine("ddd"); };
+            // Anonymous Methods
+            NumberDelegat del2 = delegate () { Console.WriteLine("Hello world"); };
 			del2();
 			Console.ReadKey();
 		}
