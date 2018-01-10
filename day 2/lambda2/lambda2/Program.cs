@@ -14,7 +14,7 @@ namespace lambda2
             
             NumberDelegate addOn = (x, y , z) => x + y + z;
             Console.WriteLine(addOn(2.3f , 3.5f, 4.8f));
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }

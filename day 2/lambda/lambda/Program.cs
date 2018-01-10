@@ -14,7 +14,7 @@ namespace lambda2
 
             NumberDelegate timesTwo = (x => x * 2);
             Console.WriteLine(timesTwo(7));
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
