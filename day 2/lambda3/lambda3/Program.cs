@@ -13,7 +13,7 @@ namespace lambda
 
 		static void Message()
 		{
-			Console.WriteLine("Hello " + " ");
+			Console.WriteLine("Hello ");
 		}
 		static void Main(string[] args)
 		{
