@@ -8,8 +8,6 @@ namespace Program
     class MakeingAThread
     {
 
-        
-
         static void Main(string[] args)
         {
             ThreadStart t1ref = new ThreadStart(Thread1);
